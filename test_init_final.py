@@ -1536,8 +1536,8 @@ while True:
 				embed.add_field(name='6시간', value='감시자 데몬', inline=False)
 				embed.add_field(name='6시간 53분', value='피닉스', inline=False)
 				embed.add_field(name='7시간', value='데스나이트', inline=False)
-				embed.add_field(name='8시간', value='리칸트', inline=False)
-				embed.add_field(name='10시간', value='커츠', inline=False)
+				#embed.add_field(name='8시간', value='리칸트', inline=False)
+				embed.add_field(name='10시간', value='리칸트,커츠', inline=False)
 				await client.get_channel(channel).send(embed=embed, tts=False)
 
 			################ 명존쎄 ################ 
